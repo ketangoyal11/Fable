@@ -1,0 +1,6 @@
+.code-review-graph/  
+__pycache__/  
+*.parquet  
+*.xlsx  
+node_modules/  
+graphify-out/  
