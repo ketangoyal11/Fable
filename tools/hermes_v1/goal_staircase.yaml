@@ -1,0 +1,14 @@
+asset: "XAU/USDT"
+target_return_30d: 0.07
+max_drawdown: 0.08
+min_sharpe: 1.2
+min_winrate: 0.35
+failure_below: -0.04
+reflection_every: 10
+one_variable_only: true
+
+# Reflection priorities for Staircase:
+#  low winrate -> tighten adx_threshold
+#  high drawdown -> tighten sl_buffer_atr
+#  good winrate -> raise tp_rr
+#  everything ok -> loosen adx_threshold

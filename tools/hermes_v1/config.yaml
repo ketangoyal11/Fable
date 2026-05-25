@@ -1,0 +1,57 @@
+# Hermes V1 Configuration — Research & Backtesting Engine
+#
+# Multi-timeframe research: weekly Staircase bias + lower-TF entries
+# Read-only. Outputs go to research_outputs/.
+
+vault:
+  path: "C:\\Users\\yugan\\OneDrive\\Desktop\\CLAUDE\\data\\nifty_universe"
+  timeframes: ["1wk", "1d", "1h", "30m", "15m", "5m"]  # 1m too noisy for trading
+  file_pattern: "{symbol}_{timeframe}.parquet"
+
+staircase_weekly:
+  ema_fast: 9
+  ema_slow: 21
+  sma_short: [10, 20]
+  sma_long: [50, 100, 200]
+  adx_length: 14
+  adx_threshold: 20
+  breakout_lookback: 20
+  slope_lookback: 5
+  sl_buffer_atr: 0.2
+  tp_rr: 2.0
+  pyramiding:
+    sizes: [33, 33, 34]
+    min_bars_between: 1
+    min_profit_for_next: 0.0
+
+lower_tf_entries:
+  timeframes: ["1d", "1h"]
+  entry_types:
+    - breakout_20        # 20-bar high breakout
+    - ema_pullback       # price touches EMA21
+    - consolidation_bo   # tight consolidation then breakout
+    - vwap_reclaim       # price reclaims VWAP (intraday only)
+    - hh_hl_continuation # higher high / higher low
+    - volume_expansion   # volume > 1.5x avg
+    - prev_day_high_bo   # breakout above prior day high
+  consolidation_atr_max: 1.0    # consolidation = range < this * ATR
+  volume_expansion_multiplier: 1.5
+
+risk:
+  sl_atr_multiplier: 1.5           # stop-loss in ATR
+  target_rr_ratios: [1.0, 1.5, 2.0, 2.5, 3.0]
+  position_size_r: 0.02            # 2% risk per trade
+  max_positions: 5                 # max concurrent positions
+  capital: 100000
+
+backtest:
+  walk_forward_windows: 4          # split data into N segments
+  train_ratio: 0.7                 # 70% train, 30% test
+  min_trades_for_stats: 20
+  skip_weekends: true               # skip Sat/Sun for intraday
+
+output:
+  dir: "research_outputs"
+  save_trades_csv: true
+  save_signals_csv: true
+  save_reports: true

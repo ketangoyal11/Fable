@@ -1,0 +1,28 @@
+# Staircase Strategy - mirrored from Pine Script v5
+# One variable per reflection cycle. Bump version on every change.
+
+entry:
+  ema_fast: 9
+  ema_slow: 21
+  sma_short: [10, 20]
+  sma_long: [50, 100, 200]
+  adx_length: 14
+  adx_threshold: 20
+  breakout_lookback: 20
+  slope_lookback: 5
+
+exit:
+  sl_type: consolidation_low    # consolidation_low | sma50 | sma200
+  sl_buffer_atr: 0.2
+  tp_rr: 2.0
+  partial_exits: [0, 0, 0]     # L1%, L2%, L3% to take at TP. 0=none, 100=full exit
+  trail_sma20_for_l1: true
+  trail_sma50_for_l2l3: true
+
+pyramiding:
+  max_entries: 3
+  sizes: [33, 33, 34]          # must sum to ~100
+  min_bars_between: 3
+  min_profit_for_next: 0.0     # prev position must be >= this % in profit
+
+version: '01'
