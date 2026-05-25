@@ -1,0 +1,105 @@
+# Hermes V2.1 — Staircase V3 Principles Extension Engine
+# Applies V3's winning concepts (50/30/20 pyramiding, multi-TF gating, volume filter,
+# Darvas, consolidation SL, trend break exits) to daily timeframe entries gated by
+# weekly L1/L2/L3 activation.
+#
+# Tests 8 improvement filters ONE AT A TIME from the deep evaluation analysis:
+#   1. 50-80 Rule: no entry if price > 80% above SMA200
+#   2. Tennis Ball: require pullback to EMA21 before L1
+#   3. Strong Demand: volume > 120% of 4-week avg on breakout
+#   4. Climax Run: skip L3 if > 100% in 12 weeks
+#   5. Pivot Entry: only L1 if within 10% of 52-week high
+#   6. Min bars = 1 (vs current default)
+#   7. SMA20 trail after L1, SMA50 after L2
+#   8. Weekly+daily dual bias (only fire on daily if weekly active AND daily trend OK)
+
+vault:
+  path: "C:\\Users\\yugan\\OneDrive\\Desktop\\CLAUDE\\data\\nifty_universe"
+
+pilot:
+  max_stocks: 40
+
+staircase:
+  # From V3
+  ema_fast: 9
+  ema_slow: 21
+  sma_10: 10
+  sma_20: 20
+  sma_50: 50
+  sma_100: 100
+  sma_200: 200
+  adx_length: 14
+  adx_threshold: 20
+  breakout_lookback: 20
+  slope_lookback: 5
+  sl_buffer_atr: 0.2
+  atr_length: 14
+
+  # Pyramiding (V3 optimal = 50/30/20)
+  pyramiding:
+    l1_size: 50.0
+    l2_size: 30.0
+    l3_size: 20.0
+    min_bars_between: 1
+    min_profit_for_next: 0.0
+    activation_lookahead_bars: 4  # activation zone = trigger + N weekly bars
+
+  # Volume
+  volume_filter: "above_any"  # above_any, above_all, off
+
+  # Darvas
+  darvas_len: 40
+
+  # Strong candle
+  strong_candle: false
+
+  # TF filters (from V3)
+  tf1_short: true   # weekly short-term stacked
+  tf1_long: false   # weekly long-term stacked
+  tf1_darvas: false
+  tf1_darvas_len: 15
+
+  tf2_short: true   # daily short-term stacked
+  tf2_long: true    # daily long-term stacked
+  tf2_darvas: false
+
+exit:
+  sl_type: "consolidation_low"  # consolidation_low, sma50, sma200
+  sl_buffer_atr: 0.2
+  risk_reward_l1: 2.0
+  risk_reward_l2: 2.0
+  risk_reward_l3: 2.0
+  partial_pct: 50.0
+  timeout_bars: 200  # weekly bars before forced exit
+
+improvements:
+  # Each tested independently on 1d after weekly activation
+  - name: baseline
+    description: "V3 Staircase applied to daily with weekly gate — no improvements"
+
+  - name: rule_50_80
+    description: "Skip entry if price > 80% above SMA200 (too extended)"
+
+  - name: tennis_ball
+    description: "Require at least one pullback to EMA21 (low touched EMA21 within last 3 bars)"
+
+  - name: strong_demand
+    description: "Volume on breakout bar > 120% of 4-bar average volume"
+
+  - name: climax_avoid
+    description: "Skip L3 if stock > 100% in 12 weeks (climax run avoidance)"
+
+  - name: pivot_entry
+    description: "Only take L1 if close within 10% of 52-week high"
+
+  - name: dual_bias
+    description: "Require weekly active AND daily V3 trend OK (dual TFs must align)"
+
+  - name: sma_trail
+    description: "Trail stop to SMA20 after L1, SMA50 after L2 (instead of fixed consolidation SL)"
+
+  - name: combined
+    description: "tennis_ball + strong_demand + pivot_entry + dual_bias"
+
+output:
+  dir: "C:\\Users\\yugan\\hermes-trading\\research_outputs\\v2"

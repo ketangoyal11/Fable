@@ -1,0 +1,93 @@
+# Hermes V3 Configuration — Staircase SMA Trend Filter (33/33/34)
+# Ported from Pine Script "Staircase - SMA TREND FILTER (33/33/34)"
+
+# --- Data Sources ---
+data:
+  vault_path: "C:\\Users\\yugan\\OneDrive\\Desktop\\CLAUDE\\data\\nifty_universe"
+  # dhan config loaded from env vars if available
+  prefer: "local"  # local, yahoo, dhan
+
+# --- Pilot / Full Universe ---
+pilot:
+  max_stocks: 50
+
+# --- Pine Script Parameters (Authoritative) ---
+strategy:
+  # EMAs
+  ema_fast: 9
+  ema_slow: 21
+
+  # SMAs (short-term)
+  sma10: 10
+  sma20: 20
+
+  # SMAs (long-term)
+  sma50: 50
+  sma100: 100
+  sma200: 200
+  slope_len: 5
+
+  # ATR / ADX
+  atr_len: 14
+  adx_len: 14
+  adx_threshold: 20
+
+  # Breakout
+  breakout_lookback: 20
+
+  # Stop Loss
+  sl_type: "Consolidation Low"
+  sl_buffer_atr: 0.2
+
+  # Take Profit
+  risk_reward_tp: 2.0
+
+  # Partial Exit (percentage of leg to close at TP)
+  partial_exit_pct_by_leg:
+    L1: 50
+    L2: 50
+    L3: 50
+
+  # Position Sizing (33/33/34)
+  position_size_pct_by_leg:
+    L1: 33
+    L2: 33
+    L3: 34
+
+  # Pyramiding
+  pyramiding: 3
+  min_bars_between_entries: 3
+  min_profit_for_next_entry_pct: 0.0
+
+  # Initial Capital
+  initial_capital: 100000
+
+  # Commission / Slippage
+  commission_pct: 0.0
+  slippage_pct: 0.0
+
+# --- Weekly Activation ---
+weekly_activation:
+  # Use the exact same Pine script logic on weekly bars
+  activation_lookahead_bars: 4
+
+# --- Darvas Box Variants ---
+darvas:
+  # Test multiple lengths to find optimal for lower timeframes
+  lengths: [5, 10, 15, 20]
+  variants:
+    - no_darvas
+    - weekly_darvas_gate
+    - ltf_darvas_breakout
+    - ltf_darvas_support
+    - combined_darvas
+
+# --- Lower Timeframes ---
+lower_timeframes:
+  - "1d"
+  - "1h"
+  - "15m"
+
+# --- Output ---
+output:
+  dir: "research_outputs/hermes_v3"

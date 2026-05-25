@@ -1,0 +1,100 @@
+# Hermes V3 Daily — Weekly Plans, Daily Executes
+# Ported from staircase_weekly_backtest_v3.py
+
+# --- Data Sources ---
+data:
+  vault_path: "C:\\Users\\yugan\\OneDrive\\Desktop\\CLAUDE\\data\\nifty_universe"
+  prefer: "local"
+
+# --- Pilot / Full Universe ---
+pilot:
+  max_stocks: 50
+
+# --- Pine Script Parameters ---
+strategy:
+  # EMAs
+  ema_fast: 9
+  ema_slow: 21
+
+  # SMAs
+  sma10: 10
+  sma20: 20
+  sma50: 50
+  sma100: 100
+  sma200: 200
+  slope_len: 5
+
+  # ATR
+  atr_len: 14
+
+  # ADX — NOT USED in V3 Daily
+  adx_len: 14
+  adx_threshold: 20
+
+  # Breakout
+  breakout_lookback: 20
+
+  # Stop Loss
+  sl_type: "Consolidation Low"
+  sl_buffer_atr: 0.2
+
+  # Take Profit
+  risk_reward_tp: 2.0
+
+  # Partial Exit (percentage of leg to close at TP)
+  partial_exit_pct_by_leg:
+    L1: 50
+    L2: 50
+    L3: 50
+
+  # Position Sizing (33/33/34)
+  position_size_pct_by_leg:
+    L1: 33
+    L2: 33
+    L3: 34
+
+  # Pyramiding
+  pyramiding: 3
+  min_bars_between_entries: 3
+  min_profit_for_next_entry_pct: 0.0
+
+  # Initial Capital
+  initial_capital: 100000
+
+  # Commission / Slippage
+  commission_pct: 0.0
+  slippage_pct: 0.0
+
+# --- Weekly Activation ---
+weekly_activation:
+  # How many weekly bars after an L1/L2/L3 fire should daily entries be allowed
+  activation_lookahead_bars: 20
+
+# --- Daily Darvas ---
+darvas:
+  default_len: 20
+  variant: "weekly_plus_daily_darvas"
+  variants:
+    - no_darvas
+    - weekly_darvas_gate
+    - daily_darvas_breakout
+    - daily_darvas_support
+    - weekly_plus_daily_darvas
+
+# --- MTF Trend Filter (1h / 15m) ---
+mtf_trend_filter:
+  enabled: true
+  timeframes:
+    - "1h"
+    - "15m"
+
+# --- Pyramiding in Daily ---
+daily_pyramiding:
+  # Should L2/L3 require weekly_active?
+  weekly_active_required: true
+  # Should L1-only mode be supported?
+  l1_only: false
+
+# --- Output ---
+output:
+  dir: "research_outputs/hermes_v3_daily"
