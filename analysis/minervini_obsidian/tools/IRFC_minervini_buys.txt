@@ -1,0 +1,158 @@
+==============================================================================================================
+  IRFC: MINERVINI HIGH-PROBABILITY BUY POINTS (Ranked)
+==============================================================================================================
+
+#    DATE         PRICE      RMV    VR      DAYS   GAIN%    SIGNAL                 MINERVINI TAGS
+--------------------------------------------------------------------------------------------------------------
+#1   2021-03-01   Rs25.90   1.7   2.7 x  2   d +5.1  %  BO(v2.7)               elite-tight | immediate | strong-vol | breakout | big-day
+#2   2021-05-10   Rs22.55   0.0   2.7 x  1   d +6.9  %  BO(v2.7)               elite-tight | immediate | strong-vol | breakout | big-day
+#3   2023-09-01   Rs55.75   3.9   2.5 x  1   d +11.1 %  BO(v2.5)               elite-tight | immediate | strong-vol | breakout | big-day
+#4   2021-03-01   Rs25.90   4.8   2.7 x  7   d +5.1  %  BO(v2.7)               elite-tight | quick | strong-vol | breakout | big-day
+#5   2021-06-15   Rs25.20   3.3   2.9 x  1   d +2.0  %  BO(v2.9)               elite-tight | immediate | strong-vol | breakout
+#6   2024-10-28   Rs143.48  4.5   1.7 x  2   d +6.7  %  BO(v1.7)               elite-tight | immediate | adequate-vol | breakout | big-day
+#7   2021-03-01   Rs25.90   3.1   2.7 x  11  d +5.1  %  BO(v2.7)               elite-tight | strong-vol | breakout | big-day
+#8   2022-09-07   Rs22.75   2.8   3.4 x  14  d +1.6  %  PIVOT-B/O              elite-tight | strong-vol | pivot-bo
+#9   2022-12-12   Rs33.40   5.1   2.1 x  3   d +7.6  %  BO(v2.1)               strong-tight | immediate | adequate-vol | breakout | big-day
+#10  2022-12-20   Rs35.65   1.4   2.3 x  4   d +8.5  %  BO(v2.3)               elite-tight | quick | adequate-vol | breakout | big-day
+#11  2024-02-13   Rs153.45  6.8   1.7 x  3   d +15.4 %  BO(v1.7)               strong-tight | immediate | adequate-vol | breakout | big-day
+#12  2024-07-05   Rs188.23  8.0   3.5 x  7   d +5.9  %  BO(v3.5)               strong-tight | quick | strong-vol | breakout | big-day
+#13  2025-06-04   Rs144.95  3.9   2.8 x  5   d +2.9  %  BO(v2.8)               elite-tight | quick | strong-vol | breakout
+#14  2026-01-02   Rs128.48  4.6   1.9 x  1   d +2.1  %  BO(v1.9)               elite-tight | immediate | adequate-vol | breakout
+#15  2022-03-17   Rs22.85   3.3   2.0 x  5   d +2.7  %  BO(v2.0)               elite-tight | quick | adequate-vol | breakout
+#16  2023-08-14   Rs50.85   9.6   3.1 x  2   d +4.0  %  BO(v3.1)               moderate-tight | immediate | strong-vol | breakout
+#17  2023-08-24   Rs48.60   6.7   1.4 x  1   d +1.8  %  PIVOT-B/O              strong-tight | immediate | pivot-bo
+#18  2023-08-29   Rs49.50   5.3   1.2 x  1   d +1.6  %  PIVOT-B/O              strong-tight | immediate | pivot-bo
+#19  2024-03-14   Rs140.25  3.6   1.9 x  8   d +12.9 %  BO(v1.9)               elite-tight | adequate-vol | breakout | big-day
+#20  2024-06-21   Rs176.32  4.8   1.6 x  6   d +2.3  %  BO(v1.6)               elite-tight | quick | adequate-vol | breakout
+#21  2024-06-21   Rs176.32  5.7   1.6 x  3   d +2.3  %  BO(v1.6)               strong-tight | immediate | adequate-vol | breakout
+#22  2024-12-30   Rs153.35  5.2   1.7 x  3   d +4.9  %  BO(v1.7)               strong-tight | immediate | adequate-vol | breakout
+#23  2021-05-24   Rs24.00   7.4   1.9 x  4   d +2.8  %  BO(v1.9)               strong-tight | quick | adequate-vol | breakout
+#24  2023-02-15   Rs29.80   9.0   1.8 x  2   d +2.2  %  BO(v1.8)               moderate-tight | immediate | adequate-vol | breakout
+#25  2023-04-18   Rs28.25   2.2   1.3 x  4   d +2.5  %  BO(v1.3)               elite-tight | quick | breakout
+#26  2023-06-07   Rs33.85   6.1   1.5 x  4   d +4.8  %  BO(v1.5)               strong-tight | quick | adequate-vol | breakout
+#27  2023-11-17   Rs76.90   5.4   1.4 x  7   d +5.2  %  BO(v1.4)               strong-tight | quick | breakout | big-day
+#28  2023-12-29   Rs99.35   9.6   1.8 x  1   d +3.0  %  BO(v1.8)               moderate-tight | immediate | adequate-vol | breakout
+#29  2024-01-10   Rs103.05  7.9   1.3 x  4   d +2.9  %  PIVOT-B/O              strong-tight | quick | pivot-bo
+#30  2024-04-26   Rs158.05  11.0  2.2 x  4   d +5.2  %  BO(v2.2)               moderate-tight | quick | adequate-vol | breakout | big-day
+#31  2024-10-28   Rs143.48  5.8   1.7 x  8   d +6.7  %  BO(v1.7)               strong-tight | adequate-vol | breakout | big-day
+#32  2025-03-04   Rs114.59  6.5   1.7 x  4   d +3.1  %  BO(v1.7)               strong-tight | quick | adequate-vol | breakout
+#33  2023-06-07   Rs33.85   5.2   1.5 x  11  d +4.8  %  BO(v1.5)               strong-tight | adequate-vol | breakout
+#34  2023-11-17   Rs76.90   5.4   1.4 x  13  d +5.2  %  BO(v1.4)               strong-tight | breakout | big-day
+#35  2024-02-13   Rs153.45  8.6   1.7 x  11  d +15.4 %  BO(v1.7)               moderate-tight | adequate-vol | breakout | big-day
+#36  2024-03-14   Rs140.25  8.1   1.9 x  13  d +12.9 %  BO(v1.9)               moderate-tight | adequate-vol | breakout | big-day
+#37  2024-10-28   Rs143.48  8.9   1.7 x  12  d +6.7  %  BO(v1.7)               moderate-tight | adequate-vol | breakout | big-day
+#38  2024-11-19   Rs145.18  8.5   1.7 x  8   d +5.0  %  BO(v1.7)               moderate-tight | adequate-vol | breakout | big-day
+#39  2025-02-19   Rs124.27  2.9   1.4 x  10  d +4.2  %  BO(v1.4)               elite-tight | breakout
+#40  2025-02-19   Rs124.27  5.2   1.4 x  4   d +4.2  %  BO(v1.4)               strong-tight | quick | breakout
+#41  2025-04-22   Rs132.31  4.1   0.7 x  2   d +0.7  %  GAP-UP                 elite-tight | immediate
+#42  2025-05-12   Rs125.53  1.3   1.0 x  5   d +7.8  %  GAP-UP                 elite-tight | quick | big-day
+#43  2025-07-23   Rs134.85  10.3  2.9 x  11  d +3.1  %  BO(v2.9)               moderate-tight | strong-vol | breakout
+#44  2025-12-19   Rs113.98  6.6   1.4 x  4   d +2.9  %  BO(v1.4)               strong-tight | quick | breakout
+#45  2026-03-24   Rs92.87   5.7   1.3 x  5   d +3.8  %  BO(v1.3)               strong-tight | quick | breakout
+#46  2022-01-14   Rs23.70   8.1   2.0 x  10  d +3.0  %  BO(v2.0)               moderate-tight | adequate-vol | breakout
+#47  2022-03-17   Rs22.85   10.3  2.0 x  10  d +2.7  %  BO(v2.0)               moderate-tight | adequate-vol | breakout
+#48  2025-04-16   Rs129.06  7.8   0.7 x  3   d +0.6  %  GAP-UP                 strong-tight | immediate
+#49  2026-03-10   Rs100.71  6.4   0.8 x  3   d +3.2  %  GAP-UP                 strong-tight | immediate
+#50  2022-10-27   Rs22.30   7.0   1.5 x  13  d +1.6  %  GAP-UP                 strong-tight | adequate-vol
+#51  2023-04-18   Rs28.25   8.3   1.3 x  14  d +2.5  %  BO(v1.3)               moderate-tight | breakout
+#52  2023-09-25   Rs76.80   7.2   0.6 x  5   d +2.3  %  GAP-UP                 strong-tight | quick
+#53  2024-04-22   Rs144.10  1.9   0.4 x  11  d +2.2  %  GAP-UP                 elite-tight
+#54  2025-05-12   Rs125.53  6.9   1.0 x  12  d +7.8  %  GAP-UP                 strong-tight | big-day
+#55  2026-03-10   Rs100.71  3.0   0.8 x  13  d +3.2  %  GAP-UP                 elite-tight
+#56  2026-04-08   Rs98.91   12.0  1.3 x  7   d +6.4  %  GAP-UP                 moderate-tight | quick | big-day
+#57  2026-04-15   Rs101.72  8.5   1.1 x  3   d +2.8  %  GAP-UP                 moderate-tight | immediate
+#58  2021-12-09   Rs23.60   10.8  0.3 x  5   d +0.9  %  GAP-UP                 moderate-tight | quick
+#59  2024-04-22   Rs144.10  9.7   0.4 x  6   d +2.2  %  GAP-UP                 moderate-tight | quick
+#60  2022-10-27   Rs22.30   12.1  1.5 x  9   d +1.6  %  GAP-UP                 adequate-vol
+
+==============================================================================================================
+  ELITE MINERVINI ENTRIES (Score >= 8)
+==============================================================================================================
+
+>>> BUY: Rs25.90 on 2021-03-01
+    Streak #3 ended 2021-02-25 (RMV 1.7)
+    2 days later: BO(v2.7) [+5.1%, VR 2.7x]
+    Tags: elite-tight | immediate | strong-vol | breakout | big-day
+
+>>> BUY: Rs22.55 on 2021-05-10
+    Streak #6 ended 2021-05-07 (RMV 0.0)
+    1 days later: BO(v2.7) [+6.9%, VR 2.7x]
+    Tags: elite-tight | immediate | strong-vol | breakout | big-day
+
+>>> BUY: Rs55.75 on 2023-09-01
+    Streak #53 ended 2023-08-31 (RMV 3.9)
+    1 days later: BO(v2.5) [+11.1%, VR 2.5x]
+    Tags: elite-tight | immediate | strong-vol | breakout | big-day
+
+>>> BUY: Rs25.90 on 2021-03-01
+    Streak #2 ended 2021-02-18 (RMV 4.8)
+    7 days later: BO(v2.7) [+5.1%, VR 2.7x]
+    Tags: elite-tight | quick | strong-vol | breakout | big-day
+
+>>> BUY: Rs25.20 on 2021-06-15
+    Streak #8 ended 2021-06-14 (RMV 3.3)
+    1 days later: BO(v2.9) [+2.0%, VR 2.9x]
+    Tags: elite-tight | immediate | strong-vol | breakout
+
+>>> BUY: Rs143.48 on 2024-10-28
+    Streak #81 ended 2024-10-24 (RMV 4.5)
+    2 days later: BO(v1.7) [+6.7%, VR 1.7x]
+    Tags: elite-tight | immediate | adequate-vol | breakout | big-day
+
+>>> BUY: Rs25.90 on 2021-03-01
+    Streak #1 ended 2021-02-12 (RMV 3.1)
+    11 days later: BO(v2.7) [+5.1%, VR 2.7x]
+    Tags: elite-tight | strong-vol | breakout | big-day
+
+>>> BUY: Rs22.75 on 2022-09-07
+    Streak #34 ended 2022-08-17 (RMV 2.8)
+    14 days later: PIVOT-B/O [+1.6%, VR 3.4x]
+    Tags: elite-tight | strong-vol | pivot-bo
+
+>>> BUY: Rs33.40 on 2022-12-12
+    Streak #38 ended 2022-12-07 (RMV 5.1)
+    3 days later: BO(v2.1) [+7.6%, VR 2.1x]
+    Tags: strong-tight | immediate | adequate-vol | breakout | big-day
+
+>>> BUY: Rs35.65 on 2022-12-20
+    Streak #39 ended 2022-12-14 (RMV 1.4)
+    4 days later: BO(v2.3) [+8.5%, VR 2.3x]
+    Tags: elite-tight | quick | adequate-vol | breakout | big-day
+
+>>> BUY: Rs153.45 on 2024-02-13
+    Streak #62 ended 2024-02-08 (RMV 6.8)
+    3 days later: BO(v1.7) [+15.4%, VR 1.7x]
+    Tags: strong-tight | immediate | adequate-vol | breakout | big-day
+
+>>> BUY: Rs188.23 on 2024-07-05
+    Streak #72 ended 2024-06-26 (RMV 8.0)
+    7 days later: BO(v3.5) [+5.9%, VR 3.5x]
+    Tags: strong-tight | quick | strong-vol | breakout | big-day
+
+>>> BUY: Rs144.95 on 2025-06-04
+    Streak #91 ended 2025-05-28 (RMV 3.9)
+    5 days later: BO(v2.8) [+2.9%, VR 2.8x]
+    Tags: elite-tight | quick | strong-vol | breakout
+
+>>> BUY: Rs128.48 on 2026-01-02
+    Streak #96 ended 2026-01-01 (RMV 4.6)
+    1 days later: BO(v1.9) [+2.1%, VR 1.9x]
+    Tags: elite-tight | immediate | adequate-vol | breakout
+
+  Rejected: 15 entries filtered out (score < 5)
+
+
+==============================================================================================================
+  MINERVINI CLASSIFICATION LEGEND
+==============================================================================================================
+  Scoring (max 12):
+  - Tightness: elite(0-5RMV=3) | strong(5-8RMV=2) | moderate(8-12RMV=1)
+  - Timing: immediate(0-3d=2) | quick(4-7d=1)
+  - Volume: massive(5.0x+=3) | strong(2.5x+=2) | adequate(1.5x+=1)
+  - Signal: pivot-bo(+3) | breakout(+2)
+  - Big day(>=5%+1)
+
+  Score >= 8: Elite Minervini entry (tightness + volume + pivot-clearing)
+  Score 6-7: Good entry
+  Score 5: Marginal
+  Score < 5: Avoid

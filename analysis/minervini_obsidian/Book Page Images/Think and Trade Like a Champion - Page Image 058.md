@@ -1,0 +1,43 @@
+---
+type: book-page-image
+book: "Think and Trade Like a Champion"
+page: 58
+page_kind: "text-context-page"
+image_count: 0
+drawing_count: 0
+word_count: 447
+likely_visual: false
+generated: "2026-05-17"
+private_source_image: true
+---
+
+# Think and Trade Like a Champion - Page Image 58
+
+## Source Page
+
+Book: [[Think and Trade Like a Champion]]
+
+![](../assets/book_pages_private/think-and-trade-like-a-champion/page_058.png)
+
+## Page Read
+
+Tags: risk-first, text-or-context-page
+
+Concepts: [[Risk First]]
+
+This page is mainly text/context. It is included so the image index has complete source coverage, but it should not be treated as an independent chart pattern.
+
+## Linked Stock Figures
+
+- No extracted stock-figure case on this page.
+
+## Extracted Page Text Signal
+
+modest, with a projected 20 percent gain. These numbers sound great; but is it realistic to assume that (A) the move will actually materialize and (B) you will be able to capture it? The problem with the TBA approach is that there is no real-life evidence that you will realize these expectations. Have you in fact been accomplishing this level of profitability consistently? You pick a stock that’s trading at, say, $30 a share, believing that it will run up to its old high at $34.50, which would b...
+
+## Manual Study Prompt
+
+- What visual structure is the page trying to make obvious?
+- Is the lesson about buying, avoiding, selling, or managing risk?
+- If a ticker is not present, what generic behavior does the image teach?
+- If a ticker is present, does the linked OHLCV rebuild confirm the same behavior?

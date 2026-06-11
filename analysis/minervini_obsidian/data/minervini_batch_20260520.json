@@ -1,0 +1,2991 @@
+[
+  {
+    "symbol": "BSE",
+    "listing_date": "2017-02-03",
+    "data_start": "2017-02-03",
+    "data_end": "2026-04-30",
+    "total_bars": 2281,
+    "trades": [
+      {
+        "symbol": "BSE",
+        "entry_date": "2021-07-13",
+        "entry_time": null,
+        "entry_price": 122.56,
+        "pivot_price": 112.0,
+        "initial_stop": 113.98,
+        "risk_pct": 7.0,
+        "risk_amount": 8.58,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2021-07-15",
+        "exit_price": 122.56,
+        "exit_reason": "breakeven_stop",
+        "days_held": 2,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 27.82,
+        "max_gain_60d": 27.82,
+        "max_gain_120d": 115.19,
+        "max_dd_20d": -2.9,
+        "max_dd_60d": -7.24,
+        "max_dd_120d": -7.24,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 8.46,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.59,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 12.7,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2021-10-08",
+        "entry_time": null,
+        "entry_price": 148.71,
+        "pivot_price": 143.87,
+        "initial_stop": 138.3,
+        "risk_pct": 7.0,
+        "risk_amount": 10.41,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2021-10-20",
+        "exit_price": 148.71,
+        "exit_reason": "breakeven_stop",
+        "days_held": 12,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 10.43,
+        "max_gain_60d": 77.35,
+        "max_gain_120d": 134.6,
+        "max_dd_20d": -5.74,
+        "max_dd_60d": -5.74,
+        "max_dd_120d": -5.74,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 17.13,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.93,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 12.55,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2022-02-10",
+        "entry_time": null,
+        "entry_price": 253.23,
+        "pivot_price": 248.88,
+        "initial_stop": 235.5,
+        "risk_pct": 7.0,
+        "risk_amount": 17.73,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2022-02-15",
+        "exit_price": 235.5,
+        "exit_reason": "hard_stop",
+        "days_held": 5,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 25.84,
+        "max_gain_60d": 37.77,
+        "max_gain_120d": 37.77,
+        "max_dd_20d": -18.44,
+        "max_dd_60d": -18.44,
+        "max_dd_120d": -27.73,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 19.42,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 5.82,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 14.99,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2023-07-28",
+        "entry_time": null,
+        "entry_price": 267.35,
+        "pivot_price": 262.65,
+        "initial_stop": 248.64,
+        "risk_pct": 7.0,
+        "risk_amount": 18.71,
+        "partial_date": "2023-08-09",
+        "partial_price": 307.8,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2024-01-12",
+        "exit_price": 745.69,
+        "exit_reason": "50dma_break",
+        "days_held": 168,
+        "total_return_full_pct": 178.92,
+        "total_return_weighted_pct": 124.87,
+        "r_multiple_full": 25.57,
+        "r_multiple_weighted": 17.84,
+        "max_gain_20d": 16.69,
+        "max_gain_60d": 128.13,
+        "max_gain_120d": 223.54,
+        "max_dd_20d": -1.48,
+        "max_dd_60d": -1.48,
+        "max_dd_120d": -1.48,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 7.78,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 8.92,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 23.08,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2024-04-01",
+        "entry_time": null,
+        "entry_price": 903.29,
+        "pivot_price": 856.66,
+        "initial_stop": 840.06,
+        "risk_pct": 7.0,
+        "risk_amount": 63.23,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2024-04-10",
+        "exit_price": 903.29,
+        "exit_reason": "breakeven_stop",
+        "days_held": 9,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 20.47,
+        "max_gain_60d": 20.47,
+        "max_gain_120d": 54.99,
+        "max_dd_20d": -3.61,
+        "max_dd_60d": -10.51,
+        "max_dd_120d": -21.95,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.75,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 17.33,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 24.47,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2024-12-05",
+        "entry_time": null,
+        "entry_price": 1731.62,
+        "pivot_price": 1663.25,
+        "initial_stop": 1610.41,
+        "risk_pct": 7.0,
+        "risk_amount": 121.21,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2024-12-27",
+        "exit_price": 1759.48,
+        "exit_reason": "time_stop",
+        "days_held": 22,
+        "total_return_full_pct": 1.61,
+        "total_return_weighted_pct": 1.61,
+        "r_multiple_full": 0.23,
+        "r_multiple_weighted": 0.23,
+        "max_gain_20d": 12.38,
+        "max_gain_60d": 18.07,
+        "max_gain_120d": 57.96,
+        "max_dd_20d": 0.39,
+        "max_dd_60d": -12.39,
+        "max_dd_120d": -29.12,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 23.22,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 12.42,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 11.4,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "BSE",
+        "entry_date": "2025-11-07",
+        "entry_time": null,
+        "entry_price": 2678.3,
+        "pivot_price": 2577.0,
+        "initial_stop": 2490.82,
+        "risk_pct": 7.0,
+        "risk_amount": 187.48,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2025-12-03",
+        "exit_price": 2751.1,
+        "exit_reason": "time_stop",
+        "days_held": 26,
+        "total_return_full_pct": 2.72,
+        "total_return_weighted_pct": 2.72,
+        "r_multiple_full": 0.39,
+        "r_multiple_weighted": 0.39,
+        "max_gain_20d": 10.52,
+        "max_gain_60d": 10.52,
+        "max_gain_120d": 37.23,
+        "max_dd_20d": -2.83,
+        "max_dd_60d": -11.23,
+        "max_dd_120d": -11.23,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 13.01,
+            "bars": 12
+          },
+          {
+            "block": 2,
+            "depth_pct": 19.3,
+            "bars": 12
+          },
+          {
+            "block": 3,
+            "depth_pct": 6.31,
+            "bars": 12
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      }
+    ],
+    "current_stage": "stage-2",
+    "current_price": 3640.5,
+    "ath": 3675.5,
+    "ath_date": "2026-04-29",
+    "summary": {
+      "total_trades": 7,
+      "winners": 3,
+      "losers": 4,
+      "win_rate": 42.9,
+      "avg_return_full": 25.18,
+      "avg_return_weighted": 17.46,
+      "avg_r_full": 3.6,
+      "avg_r_weighted": 2.49,
+      "best_trade": 124.87,
+      "worst_trade": -7.0,
+      "total_r_full": 25.19,
+      "total_r_weighted": 17.46
+    }
+  },
+  {
+    "symbol": "IRFC",
+    "listing_date": "2021-01-29",
+    "data_start": "2021-01-29",
+    "data_end": "2026-04-30",
+    "total_bars": 1296,
+    "trades": [
+      {
+        "symbol": "IRFC",
+        "entry_date": "2023-04-28",
+        "entry_time": "09:15",
+        "entry_price": 31.85,
+        "pivot_price": 31.6,
+        "initial_stop": 29.62,
+        "risk_pct": 7.0,
+        "risk_amount": 2.23,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-05-25",
+        "exit_price": 31.85,
+        "exit_reason": "breakeven_stop",
+        "days_held": 27,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 17.43,
+        "max_gain_60d": 17.43,
+        "max_gain_120d": 189.95,
+        "max_dd_20d": -2.04,
+        "max_dd_60d": -2.04,
+        "max_dd_120d": -2.04,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.52,
+            "bars": 15
+          },
+          {
+            "block": 2,
+            "depth_pct": 9.93,
+            "bars": 15
+          },
+          {
+            "block": 3,
+            "depth_pct": 15.51,
+            "bars": 15
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "IRFC",
+        "entry_date": "2023-07-31",
+        "entry_time": "09:15",
+        "entry_price": 36.95,
+        "pivot_price": 36.1,
+        "initial_stop": 34.36,
+        "risk_pct": 7.0,
+        "risk_amount": 2.59,
+        "partial_date": "2023-08-03",
+        "partial_price": 44.7,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2023-11-13",
+        "exit_price": 73.65,
+        "exit_reason": "50dma_break",
+        "days_held": 105,
+        "total_return_full_pct": 99.32,
+        "total_return_weighted_pct": 73.47,
+        "r_multiple_full": 14.17,
+        "r_multiple_weighted": 10.48,
+        "max_gain_20d": 42.63,
+        "max_gain_60d": 149.93,
+        "max_gain_120d": 421.79,
+        "max_dd_20d": 5.01,
+        "max_dd_60d": 5.01,
+        "max_dd_120d": 5.01,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 2.83,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 6.44,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 8.1,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      },
+      {
+        "symbol": "IRFC",
+        "entry_date": "2024-05-17",
+        "entry_time": "11:15",
+        "entry_price": 163.75,
+        "pivot_price": 164.2,
+        "initial_stop": 152.29,
+        "risk_pct": 7.0,
+        "risk_amount": 11.46,
+        "partial_date": "2024-06-03",
+        "partial_price": 188.95,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2024-06-04",
+        "exit_price": 163.75,
+        "exit_reason": "breakeven_stop",
+        "days_held": 18,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 5.08,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.73,
+        "max_gain_20d": 22.14,
+        "max_gain_60d": 39.85,
+        "max_gain_120d": 39.85,
+        "max_dd_20d": -7.66,
+        "max_dd_60d": -7.66,
+        "max_dd_120d": -18.9,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 23.48,
+            "bars": 17
+          },
+          {
+            "block": 2,
+            "depth_pct": 23.51,
+            "bars": 17
+          },
+          {
+            "block": 3,
+            "depth_pct": 17.6,
+            "bars": 17
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      }
+    ],
+    "current_stage": "stage-4",
+    "current_price": 104.21,
+    "ath": 229.0,
+    "ath_date": "2024-07-15",
+    "summary": {
+      "total_trades": 3,
+      "winners": 2,
+      "losers": 1,
+      "win_rate": 66.7,
+      "avg_return_full": 33.11,
+      "avg_return_weighted": 26.18,
+      "avg_r_full": 4.72,
+      "avg_r_weighted": 3.74,
+      "best_trade": 73.47,
+      "worst_trade": 0.0,
+      "total_r_full": 14.17,
+      "total_r_weighted": 11.21
+    }
+  },
+  {
+    "symbol": "RVNL",
+    "listing_date": "2019-04-11",
+    "data_start": "2019-04-11",
+    "data_end": "2026-04-30",
+    "total_bars": 1741,
+    "trades": [
+      {
+        "symbol": "RVNL",
+        "entry_date": "2019-09-24",
+        "entry_time": null,
+        "entry_price": 26.75,
+        "pivot_price": 26.55,
+        "initial_stop": 24.88,
+        "risk_pct": 7.0,
+        "risk_amount": 1.87,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2019-09-26",
+        "exit_price": 24.88,
+        "exit_reason": "hard_stop",
+        "days_held": 2,
+        "total_return_full_pct": -6.99,
+        "total_return_weighted_pct": -6.99,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 0.37,
+        "max_gain_60d": 0.37,
+        "max_gain_120d": 9.53,
+        "max_dd_20d": -15.7,
+        "max_dd_60d": -15.7,
+        "max_dd_120d": -52.34,
+        "trend_template_score": 2,
+        "trend_template_details": {
+          "price_above_sma150": false,
+          "price_above_sma200": false,
+          "sma150_above_sma200": false,
+          "sma200_rising": false,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": false,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 16.76,
+            "bars": 15
+          },
+          {
+            "block": 2,
+            "depth_pct": 14.77,
+            "bars": 15
+          },
+          {
+            "block": 3,
+            "depth_pct": 10.21,
+            "bars": 15
+          }
+        ],
+        "stage_at_entry": "unknown",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Weak trend template \u2014 caution",
+          "Clear VCP tightening",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      },
+      {
+        "symbol": "RVNL",
+        "entry_date": "2021-01-05",
+        "entry_time": null,
+        "entry_price": 27.4,
+        "pivot_price": 24.95,
+        "initial_stop": 25.48,
+        "risk_pct": 7.0,
+        "risk_amount": 1.92,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2021-01-06",
+        "exit_price": 27.4,
+        "exit_reason": "breakeven_stop",
+        "days_held": 1,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 29.74,
+        "max_gain_60d": 29.74,
+        "max_gain_120d": 29.74,
+        "max_dd_20d": -3.1,
+        "max_dd_60d": -3.1,
+        "max_dd_120d": -3.83,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 13.62,
+            "bars": 26
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.62,
+            "bars": 26
+          },
+          {
+            "block": 3,
+            "depth_pct": 26.33,
+            "bars": 26
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "RVNL",
+        "entry_date": "2022-10-25",
+        "entry_time": "10:15",
+        "entry_price": 40.0,
+        "pivot_price": 39.3,
+        "initial_stop": 37.2,
+        "risk_pct": 7.0,
+        "risk_amount": 2.8,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2022-10-27",
+        "exit_price": 40.0,
+        "exit_reason": "breakeven_stop",
+        "days_held": 2,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 74.5,
+        "max_gain_60d": 110.25,
+        "max_gain_120d": 110.25,
+        "max_dd_20d": -2.75,
+        "max_dd_60d": -2.75,
+        "max_dd_120d": -2.75,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.2,
+            "bars": 25
+          },
+          {
+            "block": 2,
+            "depth_pct": 8.81,
+            "bars": 25
+          },
+          {
+            "block": 3,
+            "depth_pct": 12.26,
+            "bars": 25
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "RVNL",
+        "entry_date": "2023-07-21",
+        "entry_time": "09:15",
+        "entry_price": 134.9,
+        "pivot_price": 132.2,
+        "initial_stop": 125.46,
+        "risk_pct": 7.0,
+        "risk_amount": 9.44,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-07-27",
+        "exit_price": 125.46,
+        "exit_reason": "hard_stop",
+        "days_held": 6,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 8.71,
+        "max_gain_60d": 47.7,
+        "max_gain_120d": 70.98,
+        "max_dd_20d": -11.3,
+        "max_dd_60d": -11.3,
+        "max_dd_120d": -11.3,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.41,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.74,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 5.79,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      },
+      {
+        "symbol": "RVNL",
+        "entry_date": "2023-12-11",
+        "entry_time": "09:15",
+        "entry_price": 177.4,
+        "pivot_price": 176.9,
+        "initial_stop": 164.98,
+        "risk_pct": 7.0,
+        "risk_amount": 12.42,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-12-20",
+        "exit_price": 177.4,
+        "exit_reason": "breakeven_stop",
+        "days_held": 9,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 6.54,
+        "max_gain_60d": 94.76,
+        "max_gain_120d": 139.57,
+        "max_dd_20d": -6.65,
+        "max_dd_60d": -6.65,
+        "max_dd_120d": -6.65,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.68,
+            "bars": 13
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.45,
+            "bars": 13
+          },
+          {
+            "block": 3,
+            "depth_pct": 13.51,
+            "bars": 13
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      }
+    ],
+    "current_stage": "stage-4",
+    "current_price": 297.65,
+    "ath": 647.0,
+    "ath_date": "2024-07-15",
+    "summary": {
+      "total_trades": 5,
+      "winners": 0,
+      "losers": 5,
+      "win_rate": 0.0,
+      "avg_return_full": -2.8,
+      "avg_return_weighted": -2.8,
+      "avg_r_full": -0.4,
+      "avg_r_weighted": -0.4,
+      "best_trade": 0.0,
+      "worst_trade": -7.0,
+      "total_r_full": -2.0,
+      "total_r_weighted": -2.0
+    }
+  },
+  {
+    "symbol": "MCX",
+    "listing_date": "2012-03-09",
+    "data_start": "2012-03-09",
+    "data_end": "2026-04-30",
+    "total_bars": 3495,
+    "trades": [
+      {
+        "symbol": "MCX",
+        "entry_date": "2015-07-22",
+        "entry_time": null,
+        "entry_price": 232.25,
+        "pivot_price": 224.2,
+        "initial_stop": 215.99,
+        "risk_pct": 7.0,
+        "risk_amount": 16.26,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2015-08-07",
+        "exit_price": 223.55,
+        "exit_reason": "time_stop",
+        "days_held": 16,
+        "total_return_full_pct": -3.75,
+        "total_return_weighted_pct": -3.75,
+        "r_multiple_full": -0.54,
+        "r_multiple_weighted": -0.54,
+        "max_gain_20d": 2.39,
+        "max_gain_60d": 2.39,
+        "max_gain_120d": 2.39,
+        "max_dd_20d": -11.11,
+        "max_dd_60d": -22.06,
+        "max_dd_120d": -35.41,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 12.98,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 15.0,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 9.46,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2016-09-27",
+        "entry_time": null,
+        "entry_price": 230.05,
+        "pivot_price": 222.8,
+        "initial_stop": 213.95,
+        "risk_pct": 7.0,
+        "risk_amount": 16.1,
+        "partial_date": "2016-09-30",
+        "partial_price": 270.25,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2016-11-21",
+        "exit_price": 243.63,
+        "exit_reason": "50dma_break",
+        "days_held": 55,
+        "total_return_full_pct": 5.9,
+        "total_return_weighted_pct": 9.72,
+        "r_multiple_full": 0.84,
+        "r_multiple_weighted": 1.39,
+        "max_gain_20d": 23.45,
+        "max_gain_60d": 23.45,
+        "max_gain_120d": 23.45,
+        "max_dd_20d": 0.85,
+        "max_dd_60d": 0.09,
+        "max_dd_120d": -5.6,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 11.13,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 7.08,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 3.81,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2020-07-20",
+        "entry_time": null,
+        "entry_price": 288.17,
+        "pivot_price": 273.73,
+        "initial_stop": 268.0,
+        "risk_pct": 7.0,
+        "risk_amount": 20.17,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2020-07-21",
+        "exit_price": 288.17,
+        "exit_reason": "breakeven_stop",
+        "days_held": 1,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 27.63,
+        "max_gain_60d": 29.02,
+        "max_gain_120d": 30.13,
+        "max_dd_20d": -0.75,
+        "max_dd_60d": -0.75,
+        "max_dd_120d": -0.75,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 12.97,
+            "bars": 16
+          },
+          {
+            "block": 2,
+            "depth_pct": 18.7,
+            "bars": 16
+          },
+          {
+            "block": 3,
+            "depth_pct": 8.28,
+            "bars": 16
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2021-09-27",
+        "entry_time": "09:15",
+        "entry_price": 339.6,
+        "pivot_price": 336.0,
+        "initial_stop": 315.83,
+        "risk_pct": 7.0,
+        "risk_amount": 23.77,
+        "partial_date": "2021-10-11",
+        "partial_price": 406.54,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2021-10-25",
+        "exit_price": 339.6,
+        "exit_reason": "breakeven_stop",
+        "days_held": 28,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 6.5,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.93,
+        "max_gain_20d": 25.74,
+        "max_gain_60d": 25.74,
+        "max_gain_120d": 25.74,
+        "max_dd_20d": -3.39,
+        "max_dd_60d": -11.74,
+        "max_dd_120d": -31.39,
+        "trend_template_score": 5,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": false,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": false,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 9.44,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 7.23,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 11.25,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2023-09-01",
+        "entry_time": "10:15",
+        "entry_price": 343.9,
+        "pivot_price": 344.2,
+        "initial_stop": 319.83,
+        "risk_pct": 7.0,
+        "risk_amount": 24.07,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-09-12",
+        "exit_price": 343.9,
+        "exit_reason": "breakeven_stop",
+        "days_held": 11,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 24.45,
+        "max_gain_60d": 87.21,
+        "max_gain_120d": 132.04,
+        "max_dd_20d": -1.02,
+        "max_dd_60d": -1.02,
+        "max_dd_120d": -1.02,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 8.61,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 8.48,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 5.86,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2024-04-10",
+        "entry_time": "09:15",
+        "entry_price": 776.2,
+        "pivot_price": 775.57,
+        "initial_stop": 721.87,
+        "risk_pct": 7.0,
+        "risk_amount": 54.33,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2024-04-24",
+        "exit_price": 776.2,
+        "exit_reason": "breakeven_stop",
+        "days_held": 14,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 10.02,
+        "max_gain_60d": 10.02,
+        "max_gain_120d": 55.51,
+        "max_dd_20d": -5.69,
+        "max_dd_60d": -24.82,
+        "max_dd_120d": -24.82,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 8.07,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 15.24,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 11.52,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "MCX",
+        "entry_date": "2024-07-18",
+        "entry_time": "14:15",
+        "entry_price": 812.8,
+        "pivot_price": 808.6,
+        "initial_stop": 755.9,
+        "risk_pct": 7.0,
+        "risk_amount": 56.9,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2024-07-22",
+        "exit_price": 755.9,
+        "exit_reason": "hard_stop",
+        "days_held": 4,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 14.89,
+        "max_gain_60d": 60.83,
+        "max_gain_120d": 73.44,
+        "max_dd_20d": -10.92,
+        "max_dd_60d": -10.92,
+        "max_dd_120d": -10.92,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 24.85,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 19.73,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 8.2,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      }
+    ],
+    "current_stage": "stage-2",
+    "current_price": 2971.5,
+    "ath": 2985.1,
+    "ath_date": "2026-04-30",
+    "summary": {
+      "total_trades": 7,
+      "winners": 2,
+      "losers": 5,
+      "win_rate": 28.6,
+      "avg_return_full": -0.69,
+      "avg_return_weighted": 0.78,
+      "avg_r_full": -0.1,
+      "avg_r_weighted": 0.11,
+      "best_trade": 9.72,
+      "worst_trade": -7.0,
+      "total_r_full": -0.7,
+      "total_r_weighted": 0.78
+    }
+  },
+  {
+    "symbol": "COCHINSHIP",
+    "listing_date": "2017-08-11",
+    "data_start": "2017-08-11",
+    "data_end": "2026-04-30",
+    "total_bars": 2153,
+    "trades": [
+      {
+        "symbol": "COCHINSHIP",
+        "entry_date": "2020-01-16",
+        "entry_time": null,
+        "entry_price": 213.23,
+        "pivot_price": 212.28,
+        "initial_stop": 198.3,
+        "risk_pct": 7.0,
+        "risk_amount": 14.93,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2020-01-21",
+        "exit_price": 213.23,
+        "exit_reason": "breakeven_stop",
+        "days_held": 5,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 15.3,
+        "max_gain_60d": 15.3,
+        "max_gain_120d": 15.3,
+        "max_dd_20d": -20.59,
+        "max_dd_60d": -50.97,
+        "max_dd_120d": -50.97,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 7.84,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 6.46,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 5.87,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "entry_date": "2021-05-17",
+        "entry_time": "09:15",
+        "entry_price": 197.53,
+        "pivot_price": 192.0,
+        "initial_stop": 183.7,
+        "risk_pct": 7.0,
+        "risk_amount": 13.83,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2021-06-03",
+        "exit_price": 191.9,
+        "exit_reason": "time_stop",
+        "days_held": 17,
+        "total_return_full_pct": -2.85,
+        "total_return_weighted_pct": -2.85,
+        "r_multiple_full": -0.41,
+        "r_multiple_weighted": -0.41,
+        "max_gain_20d": 7.83,
+        "max_gain_60d": 9.83,
+        "max_gain_120d": 9.83,
+        "max_dd_20d": -5.23,
+        "max_dd_60d": -12.1,
+        "max_dd_120d": -12.65,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 9.52,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 9.54,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 10.58,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "entry_date": "2022-08-29",
+        "entry_time": "09:15",
+        "entry_price": 189.47,
+        "pivot_price": 184.45,
+        "initial_stop": 176.21,
+        "risk_pct": 7.0,
+        "risk_amount": 13.26,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2022-09-14",
+        "exit_price": 189.47,
+        "exit_reason": "breakeven_stop",
+        "days_held": 16,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 15.53,
+        "max_gain_60d": 80.61,
+        "max_gain_120d": 81.3,
+        "max_dd_20d": -2.04,
+        "max_dd_60d": -2.04,
+        "max_dd_120d": -2.04,
+        "trend_template_score": 5,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": false,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": false,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 14.23,
+            "bars": 26
+          },
+          {
+            "block": 2,
+            "depth_pct": 8.47,
+            "bars": 26
+          },
+          {
+            "block": 3,
+            "depth_pct": 10.5,
+            "bars": 26
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "entry_date": "2023-06-20",
+        "entry_time": "09:15",
+        "entry_price": 295.0,
+        "pivot_price": 297.2,
+        "initial_stop": 274.35,
+        "risk_pct": 7.0,
+        "risk_amount": 20.65,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-07-07",
+        "exit_price": 289.8,
+        "exit_reason": "time_stop",
+        "days_held": 17,
+        "total_return_full_pct": -1.76,
+        "total_return_weighted_pct": -1.76,
+        "r_multiple_full": -0.25,
+        "r_multiple_weighted": -0.25,
+        "max_gain_20d": 16.0,
+        "max_gain_60d": 113.31,
+        "max_gain_120d": 125.15,
+        "max_dd_20d": -5.8,
+        "max_dd_60d": -5.8,
+        "max_dd_120d": -5.8,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 16.1,
+            "bars": 27
+          },
+          {
+            "block": 2,
+            "depth_pct": 26.9,
+            "bars": 27
+          },
+          {
+            "block": 3,
+            "depth_pct": 21.1,
+            "bars": 27
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "COCHINSHIP",
+        "entry_date": "2023-11-30",
+        "entry_time": "14:15",
+        "entry_price": 602.23,
+        "pivot_price": 601.88,
+        "initial_stop": 560.07,
+        "risk_pct": 7.0,
+        "risk_amount": 42.16,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-12-06",
+        "exit_price": 602.23,
+        "exit_reason": "breakeven_stop",
+        "days_held": 6,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 16.97,
+        "max_gain_60d": 56.92,
+        "max_gain_120d": 248.7,
+        "max_dd_20d": -4.04,
+        "max_dd_60d": -4.04,
+        "max_dd_120d": -4.04,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 19.23,
+            "bars": 12
+          },
+          {
+            "block": 2,
+            "depth_pct": 9.38,
+            "bars": 12
+          },
+          {
+            "block": 3,
+            "depth_pct": 17.8,
+            "bars": 12
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      }
+    ],
+    "current_stage": "stage-1-recovery",
+    "current_price": 1733.4,
+    "ath": 2979.45,
+    "ath_date": "2024-07-08",
+    "summary": {
+      "total_trades": 5,
+      "winners": 0,
+      "losers": 5,
+      "win_rate": 0.0,
+      "avg_return_full": -0.92,
+      "avg_return_weighted": -0.92,
+      "avg_r_full": -0.13,
+      "avg_r_weighted": -0.13,
+      "best_trade": 0.0,
+      "worst_trade": -2.85,
+      "total_r_full": -0.66,
+      "total_r_weighted": -0.66
+    }
+  },
+  {
+    "symbol": "GRSE",
+    "listing_date": "2018-10-10",
+    "data_start": "2018-10-10",
+    "data_end": "2026-04-30",
+    "total_bars": 1866,
+    "trades": [
+      {
+        "symbol": "GRSE",
+        "entry_date": "2019-03-01",
+        "entry_time": null,
+        "entry_price": 97.25,
+        "pivot_price": 96.9,
+        "initial_stop": 90.44,
+        "risk_pct": 7.0,
+        "risk_amount": 6.81,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2019-03-11",
+        "exit_price": 97.25,
+        "exit_reason": "breakeven_stop",
+        "days_held": 10,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 12.08,
+        "max_gain_60d": 35.63,
+        "max_gain_120d": 46.02,
+        "max_dd_20d": -4.37,
+        "max_dd_60d": -4.37,
+        "max_dd_120d": -4.37,
+        "trend_template_score": 2,
+        "trend_template_details": {
+          "price_above_sma150": false,
+          "price_above_sma200": false,
+          "sma150_above_sma200": false,
+          "sma200_rising": false,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": false,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 4.95,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 13.74,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 7.13,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "unknown",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Weak trend template \u2014 caution",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "GRSE",
+        "entry_date": "2019-09-17",
+        "entry_time": null,
+        "entry_price": 143.1,
+        "pivot_price": 142.0,
+        "initial_stop": 133.08,
+        "risk_pct": 7.0,
+        "risk_amount": 10.02,
+        "partial_date": "2019-09-24",
+        "partial_price": 176.9,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2019-12-11",
+        "exit_price": 196.15,
+        "exit_reason": "50dma_break",
+        "days_held": 85,
+        "total_return_full_pct": 37.07,
+        "total_return_weighted_pct": 32.63,
+        "r_multiple_full": 5.29,
+        "r_multiple_weighted": 4.66,
+        "max_gain_20d": 32.77,
+        "max_gain_60d": 74.0,
+        "max_gain_120d": 74.0,
+        "max_dd_20d": 0.8,
+        "max_dd_60d": 0.8,
+        "max_dd_120d": -5.1,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 14.51,
+            "bars": 13
+          },
+          {
+            "block": 2,
+            "depth_pct": 11.55,
+            "bars": 13
+          },
+          {
+            "block": 3,
+            "depth_pct": 11.57,
+            "bars": 13
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      },
+      {
+        "symbol": "GRSE",
+        "entry_date": "2020-08-11",
+        "entry_time": null,
+        "entry_price": 232.8,
+        "pivot_price": 227.15,
+        "initial_stop": 216.5,
+        "risk_pct": 7.0,
+        "risk_amount": 16.3,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2020-08-14",
+        "exit_price": 216.5,
+        "exit_reason": "hard_stop",
+        "days_held": 3,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 4.38,
+        "max_gain_60d": 4.38,
+        "max_gain_120d": 4.38,
+        "max_dd_20d": -22.04,
+        "max_dd_60d": -28.67,
+        "max_dd_120d": -28.67,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 18.36,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 13.47,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 9.55,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      },
+      {
+        "symbol": "GRSE",
+        "entry_date": "2022-04-05",
+        "entry_time": "10:15",
+        "entry_price": 250.0,
+        "pivot_price": 249.95,
+        "initial_stop": 232.5,
+        "risk_pct": 7.0,
+        "risk_amount": 17.5,
+        "partial_date": "2022-04-12",
+        "partial_price": 312.75,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2022-05-25",
+        "exit_price": 268.2,
+        "exit_reason": "50dma_break",
+        "days_held": 50,
+        "total_return_full_pct": 7.28,
+        "total_return_weighted_pct": 13.16,
+        "r_multiple_full": 1.04,
+        "r_multiple_weighted": 1.88,
+        "max_gain_20d": 33.2,
+        "max_gain_60d": 33.2,
+        "max_gain_120d": 47.54,
+        "max_dd_20d": -3.2,
+        "max_dd_60d": -16.92,
+        "max_dd_120d": -16.92,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 11.88,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 16.51,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 15.43,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      },
+      {
+        "symbol": "GRSE",
+        "entry_date": "2023-08-14",
+        "entry_time": "11:15",
+        "entry_price": 648.0,
+        "pivot_price": 636.8,
+        "initial_stop": 602.64,
+        "risk_pct": 7.0,
+        "risk_amount": 45.36,
+        "partial_date": "2023-08-16",
+        "partial_price": 776.3,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2023-10-19",
+        "exit_price": 788.25,
+        "exit_reason": "50dma_break",
+        "days_held": 66,
+        "total_return_full_pct": 21.64,
+        "total_return_weighted_pct": 21.03,
+        "r_multiple_full": 3.09,
+        "r_multiple_weighted": 3.0,
+        "max_gain_20d": 50.43,
+        "max_gain_60d": 50.43,
+        "max_gain_120d": 50.43,
+        "max_dd_20d": 0.57,
+        "max_dd_60d": 0.05,
+        "max_dd_120d": 0.05,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 22.16,
+            "bars": 19
+          },
+          {
+            "block": 2,
+            "depth_pct": 12.24,
+            "bars": 19
+          },
+          {
+            "block": 3,
+            "depth_pct": 11.19,
+            "bars": 19
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      },
+      {
+        "symbol": "GRSE",
+        "entry_date": "2024-05-17",
+        "entry_time": "13:15",
+        "entry_price": 1074.0,
+        "pivot_price": 1077.85,
+        "initial_stop": 998.82,
+        "risk_pct": 7.0,
+        "risk_amount": 75.18,
+        "partial_date": "2024-05-23",
+        "partial_price": 1425.6,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2024-08-09",
+        "exit_price": 2055.05,
+        "exit_reason": "50dma_break",
+        "days_held": 84,
+        "total_return_full_pct": 91.35,
+        "total_return_weighted_pct": 72.0,
+        "r_multiple_full": 13.05,
+        "r_multiple_weighted": 10.29,
+        "max_gain_20d": 75.79,
+        "max_gain_60d": 163.85,
+        "max_gain_120d": 163.85,
+        "max_dd_20d": 0.84,
+        "max_dd_60d": 0.84,
+        "max_dd_120d": 0.84,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 19.98,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 17.91,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 18.26,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      }
+    ],
+    "current_stage": "stage-1-recovery",
+    "current_price": 2930.8,
+    "ath": 3538.4,
+    "ath_date": "2025-06-23",
+    "summary": {
+      "total_trades": 6,
+      "winners": 4,
+      "losers": 2,
+      "win_rate": 66.7,
+      "avg_return_full": 25.06,
+      "avg_return_weighted": 21.97,
+      "avg_r_full": 3.58,
+      "avg_r_weighted": 3.14,
+      "best_trade": 72.0,
+      "worst_trade": -7.0,
+      "total_r_full": 21.47,
+      "total_r_weighted": 18.83
+    }
+  },
+  {
+    "symbol": "HAL",
+    "listing_date": "2018-04-02",
+    "data_start": "2018-04-02",
+    "data_end": "2026-05-20",
+    "total_bars": 2010,
+    "trades": [
+      {
+        "symbol": "HAL",
+        "entry_date": "2020-01-14",
+        "entry_time": null,
+        "entry_price": 429.4,
+        "pivot_price": 413.92,
+        "initial_stop": 399.34,
+        "risk_pct": 7.0,
+        "risk_amount": 30.06,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2020-01-30",
+        "exit_price": 399.34,
+        "exit_reason": "hard_stop",
+        "days_held": 16,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 4.32,
+        "max_gain_60d": 4.32,
+        "max_gain_120d": 19.7,
+        "max_dd_20d": -12.05,
+        "max_dd_60d": -45.27,
+        "max_dd_120d": -45.27,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "clear-tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 8.84,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 6.98,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 6.18,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Clear VCP tightening",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      },
+      {
+        "symbol": "HAL",
+        "entry_date": "2020-08-10",
+        "entry_time": null,
+        "entry_price": 515.65,
+        "pivot_price": 514.0,
+        "initial_stop": 479.55,
+        "risk_pct": 7.0,
+        "risk_amount": 36.1,
+        "partial_date": "2020-08-13",
+        "partial_price": 644.47,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2020-08-27",
+        "exit_price": 515.65,
+        "exit_reason": "breakeven_stop",
+        "days_held": 17,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 8.24,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 1.18,
+        "max_gain_20d": 37.98,
+        "max_gain_60d": 37.98,
+        "max_gain_120d": 37.98,
+        "max_dd_20d": -15.54,
+        "max_dd_60d": -35.02,
+        "max_dd_120d": -36.2,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "tightening",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 27.56,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 14.51,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 12.86,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "vcp",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      },
+      {
+        "symbol": "HAL",
+        "entry_date": "2022-11-16",
+        "entry_time": null,
+        "entry_price": 1340.57,
+        "pivot_price": 1319.18,
+        "initial_stop": 1246.73,
+        "risk_pct": 7.0,
+        "risk_amount": 93.84,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2022-12-06",
+        "exit_price": 1379.25,
+        "exit_reason": "time_stop",
+        "days_held": 20,
+        "total_return_full_pct": 2.89,
+        "total_return_weighted_pct": 2.89,
+        "r_multiple_full": 0.41,
+        "r_multiple_weighted": 0.41,
+        "max_gain_20d": 4.87,
+        "max_gain_60d": 4.87,
+        "max_gain_120d": 13.76,
+        "max_dd_20d": -3.58,
+        "max_dd_60d": -14.22,
+        "max_dd_120d": -14.22,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 10.78,
+            "bars": 16
+          },
+          {
+            "block": 2,
+            "depth_pct": 15.06,
+            "bars": 16
+          },
+          {
+            "block": 3,
+            "depth_pct": 9.27,
+            "bars": 16
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "HAL",
+        "entry_date": "2023-08-23",
+        "entry_time": null,
+        "entry_price": 2015.55,
+        "pivot_price": 1999.45,
+        "initial_stop": 1874.46,
+        "risk_pct": 7.0,
+        "risk_amount": 141.09,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2023-09-08",
+        "exit_price": 2052.77,
+        "exit_reason": "time_stop",
+        "days_held": 16,
+        "total_return_full_pct": 1.85,
+        "total_return_weighted_pct": 1.85,
+        "r_multiple_full": 0.26,
+        "r_multiple_weighted": 0.26,
+        "max_gain_20d": 3.45,
+        "max_gain_60d": 7.51,
+        "max_gain_120d": 55.39,
+        "max_dd_20d": -3.87,
+        "max_dd_60d": -12.29,
+        "max_dd_120d": -12.29,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 9.25,
+            "bars": 11
+          },
+          {
+            "block": 2,
+            "depth_pct": 4.04,
+            "bars": 11
+          },
+          {
+            "block": 3,
+            "depth_pct": 7.44,
+            "bars": 11
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Time stop \u2014 stock not acting right within 10-13 days"
+        ]
+      },
+      {
+        "symbol": "HAL",
+        "entry_date": "2024-02-08",
+        "entry_time": null,
+        "entry_price": 3097.2,
+        "pivot_price": 3079.0,
+        "initial_stop": 2880.4,
+        "risk_pct": 7.0,
+        "risk_amount": 216.8,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2024-02-12",
+        "exit_price": 2880.4,
+        "exit_reason": "hard_stop",
+        "days_held": 4,
+        "total_return_full_pct": -7.0,
+        "total_return_weighted_pct": -7.0,
+        "r_multiple_full": -1.0,
+        "r_multiple_weighted": -1.0,
+        "max_gain_20d": 7.65,
+        "max_gain_60d": 30.59,
+        "max_gain_120d": 83.22,
+        "max_dd_20d": -8.79,
+        "max_dd_60d": -8.79,
+        "max_dd_120d": -8.79,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 13.58,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 9.29,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 10.74,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Stopped out \u2014 initial stop hit (Minervini rule: cut losses quickly)"
+        ]
+      }
+    ],
+    "current_stage": "stage-4",
+    "current_price": 4326.5,
+    "ath": 5674.75,
+    "ath_date": "2024-07-09",
+    "summary": {
+      "total_trades": 5,
+      "winners": 3,
+      "losers": 2,
+      "win_rate": 60.0,
+      "avg_return_full": -1.85,
+      "avg_return_weighted": -0.2,
+      "avg_r_full": -0.27,
+      "avg_r_weighted": -0.03,
+      "best_trade": 8.24,
+      "worst_trade": -7.0,
+      "total_r_full": -1.33,
+      "total_r_weighted": -0.15
+    }
+  },
+  {
+    "symbol": "BEL",
+    "listing_date": "2023-12-01",
+    "data_start": "2023-12-01",
+    "data_end": "2026-05-19",
+    "total_bars": 608,
+    "trades": [
+      {
+        "symbol": "BEL",
+        "entry_date": "2024-05-17",
+        "entry_time": null,
+        "entry_price": 248.2,
+        "pivot_price": 241.65,
+        "initial_stop": 230.83,
+        "risk_pct": 7.0,
+        "risk_amount": 17.37,
+        "partial_date": "2024-05-22",
+        "partial_price": 283.6,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2024-06-04",
+        "exit_price": 248.2,
+        "exit_reason": "breakeven_stop",
+        "days_held": 18,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 4.71,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.67,
+        "max_gain_20d": 30.14,
+        "max_gain_60d": 37.19,
+        "max_gain_120d": 37.19,
+        "max_dd_20d": -7.33,
+        "max_dd_60d": -7.33,
+        "max_dd_120d": -7.33,
+        "trend_template_score": 2,
+        "trend_template_details": {
+          "price_above_sma150": false,
+          "price_above_sma200": false,
+          "sma150_above_sma200": false,
+          "sma200_rising": false,
+          "sma50_above_sma150": false,
+          "sma50_above_sma200": false,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 17.39,
+            "bars": 14
+          },
+          {
+            "block": 2,
+            "depth_pct": 21.62,
+            "bars": 14
+          },
+          {
+            "block": 3,
+            "depth_pct": 6.6,
+            "bars": 14
+          }
+        ],
+        "stage_at_entry": "unknown",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Weak trend template \u2014 caution",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      }
+    ],
+    "current_stage": "stage-3",
+    "current_price": 429.3,
+    "ath": 473.45,
+    "ath_date": "2026-03-06",
+    "summary": {
+      "total_trades": 1,
+      "winners": 1,
+      "losers": 0,
+      "win_rate": 100.0,
+      "avg_return_full": 0.0,
+      "avg_return_weighted": 4.71,
+      "avg_r_full": 0.0,
+      "avg_r_weighted": 0.67,
+      "best_trade": 4.71,
+      "worst_trade": 4.71,
+      "total_r_full": 0.0,
+      "total_r_weighted": 0.67
+    }
+  },
+  {
+    "symbol": "APOLLOMICRO",
+    "listing_date": "2021-05-13",
+    "data_start": "2021-05-13",
+    "data_end": "2026-05-11",
+    "total_bars": 1238,
+    "trades": [
+      {
+        "symbol": "APOLLOMICRO",
+        "entry_date": "2021-12-26",
+        "entry_time": null,
+        "entry_price": 14.32,
+        "pivot_price": 13.23,
+        "initial_stop": 13.32,
+        "risk_pct": 7.0,
+        "risk_amount": 1.0,
+        "partial_date": "2021-12-29",
+        "partial_price": 16.4,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2021-12-29",
+        "exit_price": 14.32,
+        "exit_reason": "breakeven_stop",
+        "days_held": 3,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 4.79,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.69,
+        "max_gain_20d": 33.31,
+        "max_gain_60d": 33.31,
+        "max_gain_120d": 33.31,
+        "max_dd_20d": -5.73,
+        "max_dd_60d": -21.05,
+        "max_dd_120d": -23.74,
+        "trend_template_score": 0,
+        "trend_template_details": {},
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 25.4,
+            "bars": 26
+          },
+          {
+            "block": 2,
+            "depth_pct": 14.37,
+            "bars": 26
+          },
+          {
+            "block": 3,
+            "depth_pct": 16.24,
+            "bars": 26
+          }
+        ],
+        "stage_at_entry": "ipo-base",
+        "base_type": "consolidation",
+        "volume_dryup": true,
+        "notes": [
+          "Stopped at breakeven \u2014 never let a winner turn into a loser",
+          "2R partial executed \u2014 sold 33% into strength, let rest run"
+        ]
+      },
+      {
+        "symbol": "APOLLOMICRO",
+        "entry_date": "2022-09-18",
+        "entry_time": null,
+        "entry_price": 16.86,
+        "pivot_price": 16.4,
+        "initial_stop": 15.68,
+        "risk_pct": 7.0,
+        "risk_amount": 1.18,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2022-09-20",
+        "exit_price": 16.86,
+        "exit_reason": "breakeven_stop",
+        "days_held": 2,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 46.98,
+        "max_gain_60d": 70.82,
+        "max_gain_120d": 122.98,
+        "max_dd_20d": -10.88,
+        "max_dd_60d": -10.88,
+        "max_dd_120d": -10.88,
+        "trend_template_score": 7,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": false,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 18.5,
+            "bars": 19
+          },
+          {
+            "block": 2,
+            "depth_pct": 15.05,
+            "bars": 19
+          },
+          {
+            "block": 3,
+            "depth_pct": 17.84,
+            "bars": 19
+          }
+        ],
+        "stage_at_entry": "stage-1-recovery",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "APOLLOMICRO",
+        "entry_date": "2025-05-20",
+        "entry_time": "09:15",
+        "entry_price": 136.5,
+        "pivot_price": 142.2,
+        "initial_stop": 126.95,
+        "risk_pct": 7.0,
+        "risk_amount": 9.55,
+        "partial_date": null,
+        "partial_price": null,
+        "partial_pct_sold": 0.0,
+        "exit_date": "2025-05-22",
+        "exit_price": 136.5,
+        "exit_reason": "breakeven_stop",
+        "days_held": 2,
+        "total_return_full_pct": 0.0,
+        "total_return_weighted_pct": 0.0,
+        "r_multiple_full": 0.0,
+        "r_multiple_weighted": 0.0,
+        "max_gain_20d": 54.89,
+        "max_gain_60d": 62.18,
+        "max_gain_120d": 159.85,
+        "max_dd_20d": -0.73,
+        "max_dd_60d": -0.73,
+        "max_dd_120d": -0.73,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "constructive",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 16.08,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.0,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 20.82,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Stopped at breakeven \u2014 never let a winner turn into a loser"
+        ]
+      },
+      {
+        "symbol": "APOLLOMICRO",
+        "entry_date": "2025-08-19",
+        "entry_time": "10:15",
+        "entry_price": 197.3,
+        "pivot_price": 198.69,
+        "initial_stop": 183.49,
+        "risk_pct": 7.0,
+        "risk_amount": 13.81,
+        "partial_date": "2025-08-21",
+        "partial_price": 235.16,
+        "partial_pct_sold": 33.0,
+        "exit_date": "2025-10-26",
+        "exit_price": 285.25,
+        "exit_reason": "50dma_break",
+        "days_held": 68,
+        "total_return_full_pct": 44.58,
+        "total_return_weighted_pct": 36.2,
+        "r_multiple_full": 6.37,
+        "r_multiple_weighted": 5.17,
+        "max_gain_20d": 79.78,
+        "max_gain_60d": 79.78,
+        "max_gain_120d": 79.78,
+        "max_dd_20d": 1.65,
+        "max_dd_60d": 1.65,
+        "max_dd_120d": 1.65,
+        "trend_template_score": 8,
+        "trend_template_details": {
+          "price_above_sma150": true,
+          "price_above_sma200": true,
+          "sma150_above_sma200": true,
+          "sma200_rising": true,
+          "sma50_above_sma150": true,
+          "sma50_above_sma200": true,
+          "price_above_52w_low_25pct": true,
+          "price_within_25pct_of_52w_high": true
+        },
+        "vcp_quality": "loose",
+        "vcp_contractions": [
+          {
+            "block": 1,
+            "depth_pct": 7.9,
+            "bars": 10
+          },
+          {
+            "block": 2,
+            "depth_pct": 10.26,
+            "bars": 10
+          },
+          {
+            "block": 3,
+            "depth_pct": 12.21,
+            "bars": 10
+          }
+        ],
+        "stage_at_entry": "stage-2",
+        "base_type": "consolidation",
+        "volume_dryup": false,
+        "notes": [
+          "Strong trend template pass (7/8)",
+          "Volume did not dry up significantly",
+          "Close below 50 DMA \u2014 distribution after advance",
+          "2R partial executed \u2014 sold 33% into strength, let rest run",
+          "Strong advance, exited on technical breakdown \u2014 good trade management"
+        ]
+      }
+    ],
+    "current_stage": "stage-2",
+    "current_price": 294.85,
+    "ath": 354.7,
+    "ath_date": "2025-09-16",
+    "summary": {
+      "total_trades": 4,
+      "winners": 2,
+      "losers": 2,
+      "win_rate": 50.0,
+      "avg_return_full": 11.14,
+      "avg_return_weighted": 10.25,
+      "avg_r_full": 1.59,
+      "avg_r_weighted": 1.46,
+      "best_trade": 36.2,
+      "worst_trade": 0.0,
+      "total_r_full": 6.37,
+      "total_r_weighted": 5.86
+    }
+  }
+]
